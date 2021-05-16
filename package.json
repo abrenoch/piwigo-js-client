@@ -1,0 +1,28 @@
+{
+  "name": "piwigo-js-client",
+  "version": "1.0.0",
+  "description": "A piwigo javascript client",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abrenoch/piwigo-js-client.git"
+  },
+  "keywords": [
+    "piwigo",
+    "api"
+  ],
+  "author": "Dave Anderson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abrenoch/piwigo-js-client/issues"
+  },
+  "homepage": "https://github.com/abrenoch/piwigo-js-client#readme",
+  "dependencies": {
+    "form-data": "^4.0.0",
+    "node-fetch": "^2.6.1"
+  }
+}
